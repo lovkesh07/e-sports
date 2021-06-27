@@ -502,17 +502,17 @@ input{
 	height: 4vw;
 	line-height: 3vw;
 	text-align: center;
-	border: 2vw solid #f37f7f;
+	border: 2vw solid #046804;
 	border-radius: 50%;
 	cursor: pointer;
-	color: #e0bb16;
+	color: #0bc22a;
 	transition: all 0.5s ease;
 	
   }
   
   .wrap .social_media .item:hover{
-	border: .5vw solid #b7b8b0;
-	color: #06fdfd;
+	border: .5vw solid #61fc07;
+	color: #49c929;
   }
   
   .wrap .form .input_field{
