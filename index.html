@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GameX.com</title>
 
-
+	<script src="https://kit.fontawesome.com/16dab6cbf8.js" crossorigin="anonymous"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="pra.css">
 </head>
 <body>
@@ -22,7 +22,7 @@
 					<a href="#">GameX.com</a>
 				</div>
 				<nav>
-					<a href="#">Home</a> <a href="#">about</a> <a href="#">	Events</a> <a href="#">services</a> <a href="#">Register</a>
+					<a href="#">Home</a> <a href="#social">Contact</a> <a href="#about">About Us</a> <a href="#events">Events</a> <a href="#register">Register</a>
 				</nav>
 			</div>
 		</header>
@@ -37,7 +37,7 @@
 				</div>
 				
 		</div>
-		<div class="content-area">
+		<div class="content-area" id="about">
 			<div class="wrapper">
 				<h2>WELCOME TO
 					DANGERZONE!</h2>
@@ -45,16 +45,83 @@
 			</div>			
 		</div>
 
+
+		<!-- -------------------------------------------- -->
+		<!------------------------- middle -------------------------->
+		
+		<div class="swiper-container mySwiper">
+			<div class="swiper-wrapper">
+			  <div class="swiper-slide">
+				<img src="https://wallpapercave.com/wp/wp7305569.jpg" />
+			  </div>
+			  <div class="swiper-slide">
+				<img src="https://mir-s3-cdn-cf.behance.net/projects/404/04dddb81384609.Y3JvcCw5OTgsNzgxLDIwMCww.png" />
+			  </div>
+			  <div class="swiper-slide">
+				<img src="https://wallpaperaccess.com/full/683506.jpg" />
+			  </div>
+			  <div class="swiper-slide">
+				<img src="https://c4.wallpaperflare.com/wallpaper/331/180/895/dota-2-wallpaper-preview.jpg" />
+			  </div>
+			  <div class="swiper-slide">
+				<img src="https://live.staticflickr.com/2913/14770859943_7650dbdd0f_b.jpg" />
+			  </div>
+			  <div class="swiper-slide">
+				<img src="https://play4.uk/wp-content/uploads/2021/03/nn.jpg" />
+			  </div>
+			  <div class="swiper-slide">
+				<img src="https://i.pinimg.com/originals/e5/59/55/e55955fc84c237bc5cd172fb9c0269e6.jpg" />
+			  </div>
+			  <div class="swiper-slide">
+				<img src="https://store-images.s-microsoft.com/image/apps.8657.14556746820051368.0f394bf8-4584-4362-a941-0c947f14426b.91aeb00d-e481-4ad2-bc10-263376eee6ad?mode=scale&q=90&h=1080&w=1920" />
+			  </div>
+			  <div class="swiper-slide">
+				<img src="https://wallpaperscmscwm.azurewebsites.net/20%20Years%20of%20Xbox%20-%20Halo/standard.png" />
+			  </div>
+			</div>
+			<div class="swiper-pagination">
+				<img src="myphotos.htm/PicsArt_06-07-11.43.21.jpg" alt="">
+			</div>
+		  </div>
+	
+	
+		 
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script>
+			var swiper = new Swiper(".mySwiper", {
+			  effect: "coverflow",
+			  grabCursor: true,
+			  centeredSlides: true,
+			  slidesPerView: "auto",
+			  coverflowEffect: {
+				rotate: 30,
+				stretch: 0,
+				depth: 100,
+				modifier: 1,
+				slideShadows: true,
+			  },
+			  pagination: {
+				el: ".swiper-pagination",
+			  },
+			  loop: true,  //for infinite loop
+			  autoplay: {
+				  delay: 1500,
+				  disableOnInteraction: false,
+			  },
+			});
+		  </script>
+		
+	<!------------------------------ middle end ----------------------------------------->
 	
 
 
 
 		<!--------------------top teams start---------------------------->
 	
-		<div style="clear: both;margin-top:200px;">_</div>
+		<div style="clear: both;margin-top:170px;">_</div>
 	
 		<section id="myskills">
-			<h1 class="titl">Top Teams</h1> <br><br>
+			<h1 class="titl"  id="teams">Top Teams</h1> <br><br>
 			<div class="skill">
 				<img src="https://www.apkmod.co/wp-content/uploads/2020/04/Design-Logo-Ideas-Best-Logo.png"/>
 				<h3>Score:- <br>3524</h3>
@@ -83,7 +150,7 @@
 	  </div>
 	
 	
-	  <div style="clear: both;margin-top:200px;">_</div>
+	  <div style="clear: both;margin-top:100px;">_</div>
 	 
 	
 	</div>
@@ -119,8 +186,8 @@
 </div>
 
 
-
-<div class="container">
+<!-- -------------------events--------------- -->
+<div class="container" id="events">
 		<h1>Upcoming Events</h1>
 		<h2>( DEAR CONTENDERS,
 			FIGHT FAIR AND HARD! )</h2> <br>
@@ -204,11 +271,11 @@
 
 <!-- --------------------sonsors start-------------------->
 
-	<!-- <div style="clear: both;margin-top:200px;">_</div> -->
+	<div style="clear: both;margin-top:30px;">_</div>
 	
-		<section id="myills">
-			<h1 class="title">Our Sponsor</h1> <br><br>
-			<div class="ill">
+		<section id="myis" >
+			<h1 class="title" id="sponsor">Our Sponsors</h1> <br><br> 
+			<div class="ill" >
 				<img src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/2018/July/Powerful-Gaming-Logos/OG-Redbull-Logo.png"/>
 				
 			</div>
@@ -234,7 +301,7 @@
 		  <img src="https://logodix.com/logo/236597.png"/>
 		  
 	  </div><br>
-	  <div style="clear: both;margin-top:200px;">_</div>
+	  <div style="clear: both;margin-top:20px;">_</div>
 		<div class="ill">
 			<img src="https://resources.esportsinsider.com/esportsinsider/2019/05/NSE-Monster-Energy.png"/>
 			
@@ -262,7 +329,7 @@
 	  
   </div>
   	
-	  <div style="clear: both;margin-top:200px;">_</div>
+	  <div style="clear: both;margin-top:40px;">_</div>
 	 
 	</div>
 		</section>
@@ -270,7 +337,7 @@
 
 
 <!-------------------register-start---------------->
-<div class="register">
+<div class="register" id="register">
 <div class="wrap">
 	<div class="title">
 	  Register Here
@@ -306,6 +373,7 @@
 	</div>
   </div>
 </div>
+<div style="clear: both;margin-top:90px;">_</div>
 <!-------------------register-end---------------->
 
 
@@ -324,9 +392,9 @@
 			<h3>Quick View</h3>
 			<ul class="content">
 			  <li><a href="#">Home</a></li>
-			  <li><a href="#">About me</a></li>
-			  <li><a href="#">Skills</a></li>
-			  <li><a href="#">My Artwork</a></li>
+			  <li><a href="#sponsor">Sponsors</a></li>
+			  <li><a href="#teams">Top Teams</a></li>
+			  <li><a href="#">Top Games</a></li>
 			  </ul> 
 		  </div>
 		  <div class="ftr">
@@ -337,13 +405,13 @@
 			  <li><a href="#"><i class="fas fa-home"></i>     23/4 vk nd</a></li>
 			  </ul> 
 		  </div>
-		  <div class="ftr" id="social media">
+		  <div class="ftr" id="social">
 			<h3>Social</h3>
 			<ul class="content">
 			  <li><a href="https://www.facebook.com/campaign/landing.php?&campaign_id=973072061&extra_1=s%7Cc%7C231348943369%7Ce%7Cfacebook%7C&placement=&creative=231348943369&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D973072061%26adgroupid%3D54006406691%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-297690534863%26loc_physical_ms%3D9075215%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQjwzYGGBhCTARIsAHdMTQz_XybD00PZtTHjTqSUaLh79orIIpNs4k6d_yVY9Tli2FTNh9xN918aAjJDEALw_wcB"><i class="fab fa-facebook-square"></i>  Facebook</a></li>
 			  <li><a href=https://www.instagram.com/accounts/onetap/?next=%2F><i class="fab fa-instagram"></i>  Instagram</a></li>
 			  <li><a href="https://www.linkedin.com/in/lovkesh-patel-b4642b122?fromQR=1"><i class="fab fa-linkedin"></i>  Linkedin</a></li>
-			  <li><a href="https://github.com"><i class="fab fa-github"></i>  Github</a></li>
+			  <li><a href="https://github.com"><i class="fab fa-github"></i>Github</a></li>
 			  <li><a href="#"><i class="fab fa-snapchat"></i>  Snapchat</a></li>
 			  </ul> 
 			  </div>
@@ -357,7 +425,8 @@
 				</form>            
 		  </div>
 		</div>
+		
 	  </footer>
-
+	  
 </body>
 </html>
