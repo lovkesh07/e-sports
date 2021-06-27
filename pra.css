@@ -12,6 +12,8 @@ body {
 	margin: 0 auto;
 	height: 70vw;
 	
+	
+	
 }
 .wrapper-2{
 	width: 90vw;
@@ -91,7 +93,8 @@ nav a {
 	
 }
 .content-area .wrapper-2 p{
-	font-size: 1.2vw;
+	font-size: 1.3vw;
+	
 }
 .content-area p {
 	padding: 2vw 0vw;
